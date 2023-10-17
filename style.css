@@ -8,3 +8,10 @@
 section {
   padding-top: 5rem;
 }
+
+#SoftSkill .container .container .row {
+  justify-content: center;
+}
+#future .container .container .row .col {
+  width: 100%;
+}
