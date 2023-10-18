@@ -3,11 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portofolio 1 - SMK Telkom Malang</title>
+    <title>Portfolio 1 - SMK Telkom Malang</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- fILE CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
 
   <body id="home">
@@ -72,8 +82,8 @@
     <section id="About">
       <div class="container">
         <div class="row text-center mb-4" data-aos="fade-down">
-          <div class="col">
-            <h2>About Me</h2>
+          <div class="section-title">
+            <h2 class="text-center">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
@@ -101,80 +111,86 @@
     </section>
     <!-- Akhir About -->
 
-    <!-- Project -->
-    <section id="Projects" style="background-color: #ffe5e5">
+    <!-- Project New -->
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col"><h2>My Projects</h2></div>
+        <div class="section-title">
+          <h2 class="text-center">My Project</h2>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card shadow" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="300">
-              <img src="img/Screenshot 2023-08-30 222951.png" class="card-img-top" alt="Environment Sites" />
-              <div class="card-body">
-                <h4 class="card-title">Environment Sites</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://playground.skilvul.com/preview/cldfvnst75x3e01oif116ur3e" class="btn btn-primary bg-danger" target="_blank">Visit Site</a>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/web1.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="img/web1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Environment Sites"><i class="bx bx-plus"></i></a>
+                <a href="https://playground.skilvul.com/preview/cldfvnst75x3e01oif116ur3e" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 mb-3">
-            <div class="card shadow" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100" data-aos-offset="300">
-              <img src="img/Screenshot 2023-08-30 224356.png" class="card-img-top" alt="Fyrtiokara Sites" />
-              <div class="card-body">
-                <h4 class="card-title">Fyrtiokara Sites</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://fyrtiokara.wordpress.com/" class="btn btn-primary bg-danger" target="_blank">Visit Site</a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/web2.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="img//web2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fyrtiokara Sites"><i class="bx bx-plus"></i></a>
+                <a href="https://fyrtiokara.wordpress.com/" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 mb-3">
-            <div class="card shadow" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="300">
-              <img src="img/Screenshot 2023-08-30 225040.png" class="card-img-top" alt="Technology Article" />
-              <div class="card-body">
-                <h4 class="card-title">Technology Article</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://artikelteknologidansosial.blogspot.com/2023/08/dampak-teknologi-terhadap-kehidupan.html" class="btn btn-primary bg-danger" target="_blank">Visit Site</a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/card1.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="img/web3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Technology Article"><i class="bx bx-plus"></i></a>
+                <a href="https://artikelteknologidansosial.blogspot.com/2023/08/dampak-teknologi-terhadap-kehidupan.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 mb-3">
-            <div class="card shadow" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="300">
-              <img src="img/Screenshot 2023-08-31 105227.png" class="card-img-top" alt="Bob Pazzo Bazaar" />
-              <div class="card-body">
-                <h4 class="card-title">Bob Pazzo Bazaar</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://bobpazzoshop.wordpress.com/" class="btn btn-primary bg-danger" target="_blank">Visit Site</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card shadow" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="300">
-              <img src="img/Screenshot 2023-08-31 105535.png" class="card-img-top" alt="ADISWISATA" />
-              <div class="card-body">
-                <h4 class="card-title">Adiswisata id</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://www.adiswisata.id/" class="btn btn-primary bg-danger" target="_blank">Visit Site</a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/web3.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="img/web4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bob Pazzo Bazaar"><i class="bx bx-plus"></i></a>
+                <a href="https://bobpazzoshop.wordpress.com/" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 mb-3">
-            <div class="card shadow" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="300">
-              <img src="img/Screenshot 2023-08-31 110048.png" class="card-img-top" alt="Technology Article" />
-              <div class="card-body">
-                <h4 class="card-title">Github.com</h4>
-                <p class="card-text">Lihat lebih banyak Source Code dan Project di GitHub Saya</p>
-                <a href="https://github.com/naufalnrsmitter20" class="btn btn-primary bg-danger" target="_blank">Visit Site</a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/web4.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="img/web5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Adiswisata"><i class="bx bx-plus"></i></a>
+                <a href="https://www.adiswisata.id/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/web5.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="img/web5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="FJN FORCES"><i class="bx bx-plus"></i></a>
+                <a href="https://www.adiswisata.id/" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -183,62 +199,123 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Project -->
+    </section>
+    <!-- Akhir Project New -->
+
+
 
     <!-- Soft Skill -->
     <section id="SoftSkill">
       <div class="container">
         <div class="row text-center mb-4">
-          <div class="col">
-            <h2>Soft Skill</h2>
+          <div class="section-title" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="200">
+            <h2 class="text-center" >Soft Skills</h2>
           </div>
         </div>
 
-        <div class="container mt-4">
+        <div class="container">
           <div class="row">
             <div class="col-md-4 mt-2">
-              <div class="card">
-                <img src="img/html.png" class="card-img-top" alt="HTML" />
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="150">
+                <div style="background-image: url(img/html.png); background-size: 390px 230px; background-repeat: space; width: 390px; height: 230px"></div>
               </div>
             </div>
             <div class="col-md-4 mt-2">
-              <div class="card">
-                <img src="img/CSS-featured-duniailkom.png" class="card-img-top" alt="CSS" />
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="150" data-aos-delay="100">
+                <div style="background-image: url(img/CSS-featured-duniailkom.png); background-size: 390px 230px; background-repeat: space; width: 390px; height: 230px"></div>
               </div>
             </div>
             <div class="col-md-4 mt-2">
-              <div class="card">
-                <img src="img/javascript.jpg" class="card-img-top" alt="JAVASCRIPT" />
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="150" data-aos-delay="200">
+                <div style="background-image: url(img/javascript.jpg); background-size: 390px 230px; background-repeat: space; width: 390px; height: 230px"></div>
               </div>
             </div>
             <div class="col-md-4 mt-2">
-              <div class="card">
-                <img src="img/javajavajava.png" class="card-img-top" alt="JAVA" />
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="150" data-aos-delay="300">
+                <div style="background-image: url(img/javajavajava.png); background-size: 390px 230px; background-repeat: space; width: 390px; height: 230px"></div>
               </div>
             </div>
             <div class="col-md-4 mt-2">
-              <div class="card">
-                <img src="img/bootstrap-alternatives.jpg" class="card-img-top" alt="BOOTSTRAP" />
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="150" data-aos-delay="400">
+                <div style="background-image: url(img/bootstrap-alternatives.jpg); background-size: 390px 230px; background-repeat: space; width: 390px; height: 230px"></div>
               </div>
             </div>
             <div class="col-md-4 mt-2">
-              <div class="card">
-                <img src="img/Apa-Itu-WordPress.png" class="card-img-top" alt="WORDPRESS" />
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="150" data-aos-delay="500">
+                <div style="background-image: url(img/Apa-Itu-WordPress.png); background-size: 390px 230px; background-repeat: space; width: 390px; height: 230px"></div>
               </div>
             </div>
             <div class="col-md-4 mt-2">
-              <div class="card">
-                <img src="img/canpa.png" class="card-img-top" alt="CANVA" />
-              </div>
-            </div>
-            <div class="col-md-4 mt-2">
-              <div class="card">
-                <img src="img/powerpointhehe.jpg" class="card-img-top" alt="POWER POINT" />
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="150" data-aos-delay="600">
+                <div style="background-image: url(img/TWZ3c7ANbf3zUV6YWFPi8a.jpg); background-size: 390px 230px; background-repeat: space; width: 390px; height: 230px"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg bg-white">
+        <div class="container">
+          <div class="section-title">
+            <h2 class="text-center">Skills Accuracy</h2>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Figma <i class="val">86%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="progress">
+                <span class="skill">Bootstrap <i class="val">93%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">WordPress/CMS <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Java <i class="val">71%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffe5e5"
@@ -252,54 +329,54 @@
     <!-- Certificate -->
     <section id="Certification" style="background-color: #ffe5e5">
       <div class="container">
-        <div class="row text-md-center">
-          <div class="col"><h2>Certification</h2></div>
+        <div class="section-title">
+          <h2 class="text-center text-black">Certification</h2>
         </div>
 
-        <div class="container mt-4">
+        <div class="container">
           <div class="row d-flex justify-content-center">
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100">
                 <img src="img/Skilvul-SkilBadge-HTML Dasar_page-0001.jpg" alt="SERTIFIKAT HTML" />
               </div>
             </div>
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="250">
                 <img src="img/Skilvul-SkilBadge-CSS Dasar_page-0001.jpg" alt="SERTIFIKAT CSS" />
               </div>
             </div>
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="500">
                 <img src="img/Skilvul-SkilBadge-JavaScript Dasar_page-0001.jpg" alt="SERTIFIKAT JAVASCRIPT" />
               </div>
             </div>
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="750">
                 <img src="img/Skilvul-SkilBadge-Web Development Pemula - Special Challenge_page-0001.jpg" alt="SERTIFIKAT PATH" />
               </div>
             </div>
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="1000">
                 <img src="img/SERTIFIKAT PENGHARGAAN (1)_page-0002.jpg" alt="SERTIFIKAT OSIS" />
               </div>
             </div>
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="1250">
                 <img src="img/SERTIFIKAT PENGHARGAAN (1)_page-0003.jpg" alt="SERTIFIKAT OSIS" />
               </div>
             </div>
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="1500">
                 <img src="img/SERTIFIKAT PENGHARGAAN (1)_page-0004.jpg" alt="SERTIFIKAT OSIS" />
               </div>
             </div>
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="1750">
                 <img src="img/SKMBT_C28023080613030_page-0001.jpg" alt="SERTIFIKAT OSIS" />
               </div>
             </div>
             <div class="col-md-6 mt-3">
-              <div class="card shadow">
+              <div class="card shadow" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="2000">
                 <img src="img/Naufal Nabil Ramadhan TelU_page-0001.jpg" alt="SERTIFIKAT OSIS" />
               </div>
             </div>
@@ -320,19 +397,19 @@
     <section id="experience">
       <div class="container">
         <div class="row text-md-center">
-          <div class="col">
-            <h2>My Experience</h2>
+          <div class="section-title">
+            <h2 class="text-center">My Experience</h2>
           </div>
         </div>
 
         <!-- Content -->
-        <div class="container mt-4">
+        <div class="container">
           <div class="row">
             <div class="col-md-4">
               <div class="card shadow">
                 <img src="img/naufalnr.exe_1693447051433.jpeg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Ketua OSIS 1 MTsN 1 Kota Malang</h5>
+                  <h5 class="card-title">Ketua OSIS MTsN 1 Kota Malang</h5>
                   <br />
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -376,15 +453,15 @@
     <section id="future" style="background-color: #ffe5e5">
       <div class="container">
         <div class="row text-center">
-          <div class="col">
-            <div class="h2">My Future Targets</div>
+          <div class="section-title">
+            <h2 class="text-center text-black">My Future Target</h2>
           </div>
         </div>
 
-        <div class="container mt-5">
+        <div class="container">
           <div class="row justify-content-center mt-2 mb-222">
-            <div class="col-sm-5 p-2"><img src="img/cara-melihat-harga-saham-di-idx.jpg" alt="" class="col-md-12" /></div>
-            <div class="col-7 align-self-md-center">
+            <div class="col-md-5 p-2"><img src="img/cara-melihat-harga-saham-di-idx.jpg" alt="" class="col-md-12" /></div>
+            <div class="col-md-7 align-self-md-center">
               <h5 class="">Bekerja di Perusahaan Ternama</h5>
               <p class="text-secondary">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia harum beatae mollitia ducimus sunt sed at asperiores. Accusamus, ad. Aliquam illum, rem recusandae mollitia dicta pariatur deserunt! Atque, rem voluptatum.
@@ -393,8 +470,8 @@
           </div>
 
           <div class="row justify-content-center mt-2 mb-2">
-            <div class="col-sm-5 p-2"><img src="img/istockphoto-1311598658-1024x1024-QzPhxS2io-transformed.jpeg" alt="" class="col-md-12" /></div>
-            <div class="col-7 align-self-md-center">
+            <div class="col-md-5 p-2"><img src="img/istockphoto-1311598658-1024x1024-QzPhxS2io-transformed.jpeg" alt="" class="col-md-12" /></div>
+            <div class="col-md-7 align-self-md-center">
               <h5>Membangun Bisnis</h5>
               <p class="text-secondary">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia harum beatae mollitia ducimus sunt sed at asperiores. Accusamus, ad. Aliquam illum, rem recusandae mollitia dicta pariatur deserunt! Atque, rem voluptatum.
@@ -403,8 +480,8 @@
           </div>
 
           <div class="row justify-content-center mt-2 mb-2">
-            <div class="col-sm-5 p-2"><img src="img/istockphoto-1325276224-1024x1024-5S0kiApDgV-transformed.jpeg" alt="" class="col-md-12" /></div>
-            <div class="col-7 align-self-md-center">
+            <div class="col-md-5 p-2"><img src="img/istockphoto-1325276224-1024x1024-5S0kiApDgV-transformed.jpeg" alt="" class="col-md-12" /></div>
+            <div class="col-md-7 align-self-md-center">
               <h5 class="">Menjalin Kerjasama Dengan Investor Ritel dan Asing</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia harum beatae mollitia ducimus sunt sed at asperiores. Accusamus, ad. Aliquam illum, rem recusandae mollitia dicta pariatur deserunt! Atque, rem voluptatum.</p>
             </div>
@@ -418,10 +495,10 @@
     <!-- Contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center">
-          <div class="col"><h2>Contact Me</h2></div>
+        <div class="section-title">
+          <h2 class="text-center text-black">Contact Me</h2>
         </div>
-        <div class="row justify-content-center mt-3">
+        <div class="row justify-content-center">
           <div class="col-md-6">
             <div class="alert alert-warning alert-dismissible fade show d-none my-alert" role="alert">
               <strong>Terimakasih!</strong> Pesan Anda Sudah Kami Terima
@@ -501,5 +578,42 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.from(".jumbotron img", { duration: 0.5, rotateY: 450, opacity: 0 });
+      gsap.from(".leadlead-span", { duration: 2.5, text: "", delay: 0.5, opacity: 1 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce", delay: 0.4 });
+      gsap.from(".display-4", { duration: 1, x: "-50", opacity: 0, ease: "back.out(1.7)", delay: 0.1 });
+    </script>
+    <!-- Akhir GSAP -->
+
+    <!-- typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      const typed = new Typed(".lead-span", {
+        strings: ["Software Engineer", "Front End Development", "Web Developer", "Big Data Scientist", "Bussiness Development"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true,
+      });
+    </script>
+    <!-- Akhir typed.js -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
