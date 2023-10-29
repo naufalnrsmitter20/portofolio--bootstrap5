@@ -15,3 +15,213 @@ section {
 #future .container .container .row .col {
   width: 100%;
 }
+
+#contact2 .container div div a button {
+  width: 300px;
+}
+/* Whatsapp Button */
+.button-whatsapp {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #128c7e;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #075e54;
+  border: #075e54 1px solid;
+  max-width: max-content;
+}
+
+.button-whatsapp:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #128c7e;
+  box-shadow: 4px 5px 17px -4px #128c7e;
+}
+
+.button-whatsapp::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #128c7e;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-whatsapp:hover::before {
+  width: 250%;
+}
+
+/* Instagram Button */
+.button-instagram {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #cd486b;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #bc2a8d;
+  border: #bc2a8d 1px solid;
+  max-width: max-content;
+}
+
+.button-instagram:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #cd486b;
+  box-shadow: 4px 5px 17px -4px #8a3ab9;
+}
+
+.button-instagram::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #bc2a8d;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-instagram:hover::before {
+  width: 250%;
+}
+/* Facebook Button */
+.button-facebook {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #3b5998;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #3b5998;
+  border: #3b5998 1px solid;
+  max-width: max-content;
+}
+
+.button-facebook:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #3b5998;
+  box-shadow: 4px 5px 17px -4px #8b9dc3;
+}
+
+.button-facebook::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #3b5998;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-facebook:hover::before {
+  width: 250%;
+}
+/* Github Button */
+.button-github {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #000000;
+  border: #030303 1px solid;
+  max-width: max-content;
+}
+
+.button-github:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #030303;
+  box-shadow: 4px 5px 17px -4px #030303;
+}
+
+.button-github::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #000000;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-github:hover::before {
+  width: 250%;
+}
+/* Telegram Button */
+.button-telegram {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #2aabee;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #229ed9;
+  border: #229ed9 1px solid;
+  max-width: max-content;
+}
+
+.button-telegram:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #229ed9;
+  box-shadow: 4px 5px 17px -4px #2aabee;
+}
+
+.button-telegram::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2aabee;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-telegram:hover::before {
+  width: 250%;
+}

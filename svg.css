@@ -1,0 +1,48 @@
+.svg-whatsapp {
+  fill: #128c7e;
+  margin-right: 10px;
+  transition: all 1000ms;
+}
+.button-whatsapp:hover .svg-whatsapp {
+  fill: #ffffff;
+}
+.svg-instagram {
+  fill: #cd486b;
+  margin-right: 10px;
+  transition: all 1000ms;
+}
+.button-instagram:hover .svg-instagram {
+  fill: #ffffff;
+}
+.svg-facebook {
+  fill: #3b5998;
+  margin-right: 10px;
+  transition: all 1000ms;
+}
+.button-facebook:hover .svg-facebook {
+  fill: #ffffff;
+}
+.svg-github {
+  fill: #000000;
+  margin-right: 10px;
+  transition: all 1000ms;
+}
+.svg-github rect {
+  fill: #ffffff;
+  margin-right: 10px;
+  transition: all 1000ms;
+}
+.button-github:hover .svg-github {
+  fill: #ffffff;
+}
+.button-github:hover rect .svg-github {
+  fill: #000000;
+}
+.svg-telegram {
+  fill: #229ed9;
+  margin-right: 10px;
+  transition: all 1000ms;
+}
+.button-telegram:hover .svg-telegram {
+  fill: #ffffff;
+}
