@@ -312,7 +312,7 @@ section.hehe {
 }
 
 .section-bg {
-  background: #ffe5e5;
+  background: #323946;
 }
 
 .section-title {
@@ -602,7 +602,7 @@ section.hehe {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(255, 23, 23, 0.75);
+  background: #212529;
   transition: 0.3s;
   width: 50%;
 }
@@ -612,7 +612,7 @@ section.hehe {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid rgb(255, 0, 0);
+  border-left: 1px solid #000000;
 }
 
 .portfolio .portfolio-wrap:hover::before {

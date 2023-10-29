@@ -1,6 +1,9 @@
 .jumbotron {
   padding-top: 7rem;
-  background-color: #ffe5e5;
+  background-color: #323946;
+}
+.section-font-jumbotron * {
+  font-family: "Raleway", sans-serif;
 }
 .display-4 {
   margin-top: 10px;
