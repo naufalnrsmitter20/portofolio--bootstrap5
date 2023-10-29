@@ -228,3 +228,167 @@ section {
 .button-telegram:hover::before {
   width: 250%;
 }
+/* spotify Button */
+.button-spotify {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #1db954;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #1db954;
+  border: #1db954 1px solid;
+  max-width: max-content;
+}
+
+.button-spotify:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #1db954;
+  box-shadow: 4px 5px 17px -4px #1db954;
+}
+
+.button-spotify::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #1db954;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-spotify:hover::before {
+  width: 250%;
+}
+/* discord Button */
+.button-discord {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #7289d9;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #7289d9;
+  border: #7289d9 1px solid;
+  max-width: max-content;
+}
+
+.button-discord:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #7289d9;
+  box-shadow: 4px 5px 17px -4px #7289d9;
+}
+
+.button-discord::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #7289d9;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-discord:hover::before {
+  width: 250%;
+}
+/* linkedin Button */
+.button-linkedin {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #0a66c2;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #0a66c2;
+  border: #0a66c2 1px solid;
+  max-width: max-content;
+}
+
+.button-linkedin:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #0a66c2;
+  box-shadow: 4px 5px 17px -4px #0a66c2;
+}
+
+.button-linkedin::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #0a66c2;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-linkedin:hover::before {
+  width: 250%;
+}
+/* Gmail Button */
+.button-email {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #c71610;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #c71610;
+  border: #c71610 1px solid;
+  max-width: max-content;
+}
+
+.button-email:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #c71610;
+  box-shadow: 4px 5px 17px -4px #c71610;
+}
+
+.button-email::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #c71610;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button-email:hover::before {
+  width: 250%;
+}
